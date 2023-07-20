@@ -1,0 +1,176 @@
+{
+	"nav": [
+		{
+			"value": "Main",
+			"link": "#top"
+		},
+		{
+			"value": "About Us",
+			"link": "#about"
+		},
+		{
+			"value": "Projects",
+			"link": "#novella"
+		},
+		{
+			"value": "Team",
+			"link": "#team"
+		},
+		{
+			"value": "Contacts",
+			"link": "#contacts"
+		}
+	],
+	"sec-intro": {
+		"title": "Hedgehog Games",
+		"description": "To win, you first need to play."
+	},
+	"sec-about": {
+		"title": "About Us",
+		"description": "Hedgehog Games is a team of people passionate about creating high-quality mobile games for IOS, Android, and Web.",
+		"title-list": "We offer:",
+		"list": [
+			{
+				"icon": "spark",
+				"text": "Full cycle of game development for various genres"
+			},
+			{
+				"icon": "time",
+				"text": "Creating branded promotional games in 3 days"
+			},
+			{
+				"icon": "cube",
+				"text": "External outsourcing of Unity 2D/3D game production"
+			}
+		]
+	},
+	"sec-novella": {
+		"title": "Visual novel Passion Stories",
+		"novella": {
+			"name": "Passion Stories",
+			"description": "A collection of romantic stories where your choices affect the plot."
+		}
+	},
+	"sec-mobile-games": {
+		"title": "Mobile games",
+		"games": [
+			{
+				"name": "Huggy Breaker",
+				"description": "Destroy blocks. Use abilities. Fight with Huggy Wyggy."
+			},
+			{
+				"name": "Shoot Runner",
+				"description": "Upgrade your squad. Buy weapons. Run to survive."
+			},
+			{
+				"name": "Pur Runner",
+				"description": "Be a kitten who is trying to escape from a dog invasion."
+			}
+		]
+	},
+	"sec-skyway": {
+		"title": "Survival simulator Sky Way",
+		"description": "Game in development",
+		"game-description": "A sandbox game. Build a raft, develop your robot, and enjoy the open world."
+	},
+	"sec-promo-games": {
+		"title": "Promo-games",
+		"description": "Ready-made solutions to attract customers and increase sales."
+	},
+	"sec-pandemonium": {
+		"title": "NFT Play-to-Earn game Pandemonium",
+		"game-description": "Pandemonium is a card-based Play-to-Earn game."
+	},
+	"sec-contacts": {
+		"title": "Contacts"
+	},
+	"sec-team": {
+		"title": "Team",
+		"team": [
+			{
+				"name": "Denis Gorbatovskiy",
+				"position": "Game designer",
+				"picture": "denis.png"
+			},
+			{
+				"name": "Oksana Bahina",
+				"position": "Project manager",
+				"picture": "oksana.png"
+			},
+			{
+				"name": "Yozhi Bushman",
+				"position": "CEO",
+				"picture": "ezhi.png"
+			},
+			{
+				"name": "Danil Brodin",
+				"position": "Tech Lead Unity",
+				"picture": "danil.png"
+			},
+			{
+				"name": "Andrey Strelkov",
+				"position": "Unity Developer",
+				"picture": "andrey.png"
+			},
+			{
+				"name": "Oleg Serdyuk",
+				"position": "CTO",
+				"picture": "oleg.png"
+			},
+			{
+				"name": "Natalya Posokh",
+				"position": "Product Manager",
+				"picture": "natalia.png"
+			},
+			{
+				"name": "Alexander Ponomarev",
+				"position": "IOS Developer",
+				"picture": "ponomarev.png"
+			},
+			{
+				"name": "Rami Khamadeh",
+				"position": "QA",
+				"picture": "rami.png"
+			},
+			{
+				"name": "Maria Dibina",
+				"position": "Scenarist",
+				"picture": "maria.png"
+			},
+			{
+				"name": "Anna Prus",
+				"position": "Community Manager",
+				"picture": "anna.png"
+			},
+			{
+				"name": "Adam Mambetov",
+				"position": "UE developer",
+				"picture": "adam.png"
+			},
+			{
+				"name": "Idar Mambetovov",
+				"position": "Concept artist",
+				"picture": "idar.png"
+			},
+			{
+				"name": "Alim Mambetov",
+				"position": "Animation artist",
+				"picture": "alim.png"
+			},
+			{
+				"name": "Kantemir Khursinov",
+				"position": "3D Modeller",
+				"picture": "kant.png"
+			},
+			{
+				"name": "Aslan Mambetov",
+				"position": "UE, AI developer",
+				"picture": "aslan.png"
+			}
+		]
+	},
+	"buttons": {
+		"connect": "Contact Us",
+		"website": "Go to the website"
+	}
+}

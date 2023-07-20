@@ -1,0 +1,85 @@
+.wrap {
+	display: grid;
+	font-size: 1.2em;
+	grid-template-columns: 40% 1fr;
+	max-width: 32em;
+	border-radius: 1em;
+	padding: 1em;
+	gap: 1em;
+	color: $white;
+	background: $mainBg-2;
+
+	@media(max-width: $phone) {
+		grid-template-columns: 35% 1fr;
+		padding: 0.5em;
+		gap: 0.5em;
+	}
+
+
+
+	// border: 0.1em solid #FB37FF66;
+	// box-shadow: 0 0 3em 0.1em #FB37FF66 inset;
+	box-shadow: rgba(251, 55, 255, 0.8) 0px 1px 2px inset,
+	rgba(251, 55, 255, 0.25) 0px 22px 45px inset,
+	rgba(251, 55, 255, 0.25) 0px -4px 4px inset,
+	rgba(251, 55, 255, 0.2) 0px -45px 45px inset,
+	rgba(251, 55, 255, 0.4) 0px 4px 13px inset;
+}
+
+
+
+.logo {
+	width: 100%;
+	aspect-ratio: 1/1;
+	object-fit: contain;
+	pointer-events: none;
+	align-self: center;
+	user-select: none;
+	overflow: hidden;
+	border-radius: 1em;
+	object-position: center center;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8em;
+	justify-content: space-between;
+	padding: 0.5em;
+
+	@media(max-width: $phone) {
+		gap: 0.5em;
+	}
+}
+
+.name {
+	font-size: 1.4em;
+	font-weight: 600;
+
+	@media(max-width: $phone) {
+		font-size: 1.2em;
+	}
+}
+
+.description {
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+
+	@media(max-width: $phone) {
+		font-size: 0.8em;
+	}
+}
+
+
+.links {
+	display: grid;
+	gap: 1em;
+	grid-template-columns: 1fr 1fr;
+
+	img {
+		width: 100%;
+		user-select: none;
+		pointer-events: none;
+	}
+}

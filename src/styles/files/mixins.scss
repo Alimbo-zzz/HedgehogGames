@@ -1,0 +1,11 @@
+@mixin sec-padding() {
+	padding: 6em 0;
+
+	@media(max-width: $tablet) {
+		padding: 4em 0;
+	}
+}
+
+@mixin theme-anim() {
+	transition: color 0.2s, background 0.3s;
+}

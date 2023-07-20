@@ -1,0 +1,83 @@
+.wrap {
+	background: $selectThemeBG-1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5em;
+	position: relative;
+	padding: 0.8em;
+	border-radius: 0.8em;
+	overflow: hidden;
+	cursor: pointer;
+	user-select: none;
+	max-width: 6em;
+
+	@media(max-width: $tablet) {
+		font-size: 0.9em;
+		border-radius: 100em;
+		max-width: 7em;
+	}
+
+	input {
+		display: none;
+	}
+
+	svg {
+		font-size: 1.2rem;
+		position: relative;
+		z-index: $i-base_;
+	}
+}
+
+
+
+.select {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background: $selectThemeDecor-1;
+	z-index: $i-base;
+	left: 0;
+	border-radius: inherit;
+	transition: 0.2s;
+}
+
+// theme
+
+.wrap {
+	&[data-theme='light'] {
+		background: $selectThemeBG-1;
+
+		.sun {
+			fill: $selectThemeSelectedColor-1;
+		}
+
+		.moon {
+			fill: $selectThemeColor-1;
+		}
+
+		.select {
+			transform: translateX(100%);
+			background: $selectThemeDecor-1;
+		}
+
+	}
+
+	&[data-theme='dark'] {
+		background: $selectThemeBG-2;
+		fill: $selectThemeColor-2;
+
+		.select {
+			transform: translateX(0%);
+			background: $selectThemeDecor-2;
+		}
+
+		.sun {
+			fill: $selectThemeSelectedColor-2;
+		}
+
+		.moon {
+			fill: $selectThemeColor-2;
+		}
+	}
+}

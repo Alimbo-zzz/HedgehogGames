@@ -1,0 +1,120 @@
+.wrap {
+	position: relative;
+}
+
+
+.decor {
+	position: absolute;
+	left: -10%;
+	top: -20%;
+	width: 70%;
+	pointer-events: none;
+	z-index: $i-base;
+
+	@media(max-width: $laptop) {
+		top: 0;
+	}
+
+	@media(max-width: $tablet) {
+		width: 100%;
+	}
+
+	@media(max-width: $phone) {
+		left: 0;
+		top: 12%;
+	}
+}
+
+.grid {
+	display: flex;
+	flex-direction: column;
+	gap: 4em;
+	position: relative;
+	z-index: $i-base_;
+}
+
+
+.preview {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	text-align: right;
+	align-items: flex-end;
+}
+
+.description {
+	font-size: 1.6em;
+	font-weight: 500;
+	width: min(100%, 25em);
+
+	@media(max-width: $tablet) {
+		font-size: 1.2em;
+		max-width: 22em;
+	}
+}
+
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+	align-items: center;
+	position: relative;
+	z-index: $i-base;
+}
+
+.list {
+	display: flex;
+	width: 100%;
+	gap: 2em;
+
+	@media(max-width: $tablet) {
+		flex-direction: column;
+		align-items: center;
+
+	}
+}
+
+.item {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	min-width: 16em;
+	padding: 2em;
+	border-radius: 0.5em;
+	background: $mainBg-2;
+	border: 0.1em solid #db32ed;
+	box-shadow:
+		0 0 14em 0.2em rgba($color: $lavander, $alpha: 0.6) inset,
+		0 0 2em 0.2em rgba($color: $lavander, $alpha: 0.9) inset, ;
+	color: $white;
+
+
+	@media(max-width: $tablet) {
+		max-width: 30em;
+	}
+
+
+	&__head {
+		display: flex;
+		align-items: center;
+		gap: 0.3em;
+		font-size: 3.5em;
+	}
+
+	&__index {
+		font-weight: bold;
+	}
+
+	&__text {
+		font-size: 1.5em;
+		font-weight: 500;
+		font-family: 'Raleway';
+
+		@media screen and (max-width: $laptop) and (min-width: $tablet) {
+			font-size: 1.2em;
+			text-align: center;
+		}
+	}
+}

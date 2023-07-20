@@ -1,0 +1,176 @@
+{
+	"nav": [
+		{
+			"value": "Главная",
+			"link": "#top"
+		},
+		{
+			"value": "О нас",
+			"link": "#about"
+		},
+		{
+			"value": "Проекты",
+			"link": "#novella"
+		},
+		{
+			"value": "Команда",
+			"link": "#team"
+		},
+		{
+			"value": "Контакты",
+			"link": "#contacts"
+		}
+	],
+	"sec-intro": {
+		"title": "Hedgehog Games",
+		"description": "Чтобы выигрывать, прежде всего нужно играть."
+	},
+	"sec-about": {
+		"title": "О компании",
+		"description": "Hedgehog Tech – это команда людей, увлеченных созданием высококачественных мобильных игр для IOS, Android и Web",
+		"title-list": "Мы предлагаем:",
+		"list": [
+			{
+				"icon": "spark",
+				"text": "Полный цикл создания игр разных жанров"
+			},
+			{
+				"icon": "time",
+				"text": "Создание брендирования промо-игры за 3 дня"
+			},
+			{
+				"icon": "cube",
+				"text": "Внешнее аутсорс производство Unity 2D/3D игр"
+			}
+		]
+	},
+	"sec-novella": {
+		"title": "Визуальная новелла Passion Stories",
+		"novella": {
+			"name": "Passion Stories",
+			"description": "Сборник романтических историй, в которых твой выбор влияет на сюжет."
+		}
+	},
+	"sec-mobile-games": {
+		"title": "Мобильные игры",
+		"games": [
+			{
+				"name": "Huggy Breaker",
+				"description": "Разрушай блоки. Используй способности. Сразись с Хагги Вагги"
+			},
+			{
+				"name": "Shoot Runner",
+				"description": "Прокачивай отряд. Покупай оружие. Беги, чтобы выжить"
+			},
+			{
+				"name": "Pur Runner",
+				"description": "Побудь котиком, который спасается от нашествия собак"
+			}
+		]
+	},
+	"sec-skyway": {
+		"title": "Симулятор выживания Sky Way",
+		"description": "Игра в разработке",
+		"game-description": "Игра в жанре sandbox. Строй плот, развивай своего робота и наслаждайся открытым миром"
+	},
+	"sec-promo-games": {
+		"title": "Промо - игры",
+		"description": "Готовые решения для привлечения клиентов и увеличения продаж"
+	},
+	"sec-pandemonium": {
+		"title": "NFT Play-to-Earn игра Pandemonium",
+		"game-description": "Pandemonium - карточная Play-to-Earn игра"
+	},
+	"sec-contacts": {
+		"title": "Контакты"
+	},
+	"sec-team": {
+		"title": "Команда",
+		"team": [
+			{
+				"name": "Денис Горбатовский",
+				"position": "Game designer",
+				"picture": "denis.png"
+			},
+			{
+				"name": "Оксана Бахина",
+				"position": "Project manager",
+				"picture": "oksana.png"
+			},
+			{
+				"name": "Ёжи Бушман",
+				"position": "CEO",
+				"picture": "ezhi.png"
+			},
+			{
+				"name": "Данил Бродин",
+				"position": "Tech Lead Unity",
+				"picture": "danil.png"
+			},
+			{
+				"name": "Андрей Стрелков",
+				"position": "Unity Developer",
+				"picture": "andrey.png"
+			},
+			{
+				"name": "Олег Сердюк",
+				"position": "CTO",
+				"picture": "oleg.png"
+			},
+			{
+				"name": "Наталья Посох",
+				"position": "Product Manager",
+				"picture": "natalia.png"
+			},
+			{
+				"name": "Александр Пономарев",
+				"position": "IOS Developer",
+				"picture": "ponomarev.png"
+			},
+			{
+				"name": "Рами Хамадех",
+				"position": "QA",
+				"picture": "rami.png"
+			},
+			{
+				"name": "Мария Дибина",
+				"position": "Scenarist",
+				"picture": "maria.png"
+			},
+			{
+				"name": "Анна Прус",
+				"position": "Community Manager",
+				"picture": "anna.png"
+			},
+			{
+				"name": "Адам Мамбетов",
+				"position": "UE developer",
+				"picture": "adam.png"
+			},
+			{
+				"name": "Идар Мамбетов",
+				"position": "Concept artist",
+				"picture": "idar.png"
+			},
+			{
+				"name": "Алим Мамбетов",
+				"position": "Animation artist",
+				"picture": "alim.png"
+			},
+			{
+				"name": "Кантемир Хурсинов",
+				"position": "3D Modeller",
+				"picture": "kant.png"
+			},
+			{
+				"name": "Аслан Мамбетов",
+				"position": "UE, AI developer",
+				"picture": "aslan.png"
+			}
+		]
+	},
+	"buttons": {
+		"connect": "Связаться с нами",
+		"website": "Перейти на сайт"
+	}
+}

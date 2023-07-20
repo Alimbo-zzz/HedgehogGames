@@ -1,0 +1,64 @@
+.wrap {
+	padding-top: 6em;
+	max-width: 20em;
+
+	&__content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+		padding: 1.5em 1em;
+		aspect-ratio: 1/1;
+		border-radius: 1em;
+		justify-content: flex-end;
+		align-items: center;
+
+		color: $white;
+		background: $mainBg-2;
+		box-shadow: rgba(251, 55, 255, 0.8) 0px 1px 2px inset,
+			rgba(251, 55, 255, 0.25) 0px 22px 45px inset,
+			rgba(251, 55, 255, 0.25) 0px -4px 4px inset,
+			rgba(251, 55, 255, 0.2) 0px -45px 45px inset,
+			rgba(251, 55, 255, 0.4) 0px 4px 13px inset;
+	}
+}
+
+
+
+.picture {
+	position: absolute;
+	top: 0;
+	transform: translateY(-30%);
+	aspect-ratio: 1/1;
+	width: 80%;
+	object-fit: contain;
+	object-position: center bottom;
+	user-select: none;
+	pointer-events: none;
+	filter: drop-shadow(0px -0.3em 0.3em $lavander);
+}
+
+.name {
+	font-size: 1.4em;
+
+	@media(max-width: $laptop) {
+		font-size: 1.2em;
+	}
+
+	@media(max-width: $phone) {
+		font-size: 0.95em;
+	}
+}
+
+.position {
+	font-size: 1.1em;
+	font-weight: 600;
+
+	@media(max-width: $laptop) {
+		font-size: 1em;
+	}
+
+	@media(max-width: $phone) {
+		font-size: 0.8em;
+	}
+}

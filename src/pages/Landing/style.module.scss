@@ -1,0 +1,37 @@
+.wrapper {
+	width: 100vw;
+	// height: 100vh;
+	overflow-x: hidden;
+	// overflow-y: auto;
+	position: relative;
+	min-width: $min_w;
+
+	display: flex;
+	flex-direction: column;
+
+
+	@include theme-anim();
+
+	// theme-1
+	background: $mainBg-1;
+	color: $text-1;
+
+	// theme-2
+	&[data-theme='dark'] {
+		background: $mainBg-2;
+		color: $text-2;
+	}
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: $i-main;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.footer {}

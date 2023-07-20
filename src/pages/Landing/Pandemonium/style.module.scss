@@ -1,0 +1,38 @@
+.wrap {
+	position: relative;
+
+}
+
+
+.decor {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 20em;
+	aspect-ratio: 1/1;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 55% 1fr;
+	gap: 2em;
+	position: relative;
+	z-index: $i-base;
+	align-items: center;
+
+	@media(max-width: $tablet) {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+}
+
+.preview {
+	aspect-ratio: 1/1;
+	pointer-events: none;
+	user-select: none;
+	grid-row: 1/3;
+	grid-column: 2/3;
+	width: 100%;
+}

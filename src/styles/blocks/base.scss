@@ -1,0 +1,56 @@
+* {
+	font-family: 'Captura', 'Open Sans';
+	scroll-behavior: smooth;
+
+	@media(max-width: $tablet) {
+		scroll-margin-top: 3em;
+	}
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+
+
+.title {
+	font-family: 'Captura', 'Open Sans';
+	font-weight: bold;
+	line-height: 1.2em;
+}
+
+.text {
+	font-family: 'Raleway', 'Open Sans';
+	font-weight: 400;
+}
+
+.link {
+	color: currentColor;
+	text-decoration: underline;
+	padding: 0.5em;
+	display: inline-block;
+}
+
+
+.decor-blur {
+	pointer-events: none;
+	user-select: none;
+	background: $decorBlur-1;
+	filter: blur(50px);
+	opacity: 0.3;
+
+	&[data-theme='light'] {
+		background: $decorBlur-1;
+	}
+
+	&[data-theme='dark'] {
+		background: $decorBlur-2;
+	}
+}
+
+
+.section {
+	@include sec-padding();
+
+}

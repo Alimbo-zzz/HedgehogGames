@@ -1,0 +1,62 @@
+.wrap {
+	position: relative;
+
+
+
+}
+
+.decor {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 75%;
+	aspect-ratio: 4/3;
+	border-radius: 50%;
+	transform: translate(-20%, -20%);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+	position: relative;
+}
+
+.text {
+	font-size: 1.5em;
+	color: #888;
+	text-shadow: 0 0 2px rgba($color: #fff, $alpha: 0.5);
+	padding-top: 0.4em;
+	padding-left: 0.2em;
+}
+
+
+.previews {
+	display: flex;
+	gap: 2em;
+	align-items: center;
+
+	@media(max-width: $laptop) {
+		display: flex;
+		flex-direction: column;
+
+		.previews__screen {
+			width: 65%;
+			align-self: flex-start;
+
+			@media(max-width: $tablet) {
+				width: 100%;
+			}
+		}
+
+		.box {
+			align-self: flex-end;
+		}
+	}
+
+
+	&__screen {
+		width: 55%;
+
+	}
+}

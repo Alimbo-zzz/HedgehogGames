@@ -1,0 +1,62 @@
+// window
+$large: 1440px;
+$desktop: 1280px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 480px;
+
+$min_w: 330px;
+
+// index
+$i-hidden: -2; // hidden
+$i-hidden_: -1;
+$i-base: 1; // base
+$i-base_: 2;
+$i-main: 3; // main
+$i-main_: 4;
+$i-overlay: 5; // overlay
+$i-overlay_: 6;
+$i-modal: 7; //modal
+$i-modal_: 8;
+$i-full: 9; //full
+$i-full_: 10;
+
+
+// colors
+$black: #000;
+$white: #fff;
+$black-brown: #282121;
+$black-blue: #131233;
+$dark-blue: #1e1d43;
+$purple: #893dea;
+$lavander: #c663df;
+$light-lavander: #d89bee;
+$gray: #a49b9b;
+$light: #E9ECF2;
+
+// gradients
+$gradient_1: linear-gradient(144.71deg, #893DEA 6.61%, #B72ED9 79.28%);
+
+// theme-1 (light)
+$mainBg-1: $white;
+$title-1: $black-brown;
+$text-1: $black-brown;
+$selectThemeBG-1: $light-lavander;
+$selectThemeDecor-1: $lavander;
+$selectThemeColor-1: $white;
+$selectThemeSelectedColor-1: $white;
+$buttonGradient-1: $gradient_1;
+$buttonColor-1: $white;
+$decorBlur-1: $purple;
+
+// theme-2 (dark)
+$mainBg-2: $dark-blue;
+$title-2: $white;
+$text-2: $light;
+$selectThemeBG-2: $black-blue;
+$selectThemeDecor-2: $purple;
+$selectThemeColor-2: $white;
+$selectThemeSelectedColor-2: $white;
+$buttonGradient-2: $gradient_1;
+$buttonColor-2: $black-brown;
+$decorBlur-2: $lavander;
